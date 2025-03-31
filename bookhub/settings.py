@@ -70,12 +70,9 @@ CSRF_TRUSTED_ORIGINS = [
     "https://se-bookhub-be.onrender.com",
     "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app/",
     "https://se-bookhub.vercel.app/",
-    "http://localhost:8000",
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://se-bookhub-be.onrender.com",
-    "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app/",
     "https://se-bookhub.vercel.app/",
     "http://localhost:8000",
 ]
