@@ -67,13 +67,16 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://se-project-beta-backend.onrender.com",
-    "https://se-project-beta-frontend-git-master-oakjkpgs-projects.vercel.app",
-    "https://se-project-beta-frontend.vercel.app",
+    "https://se-bookhub-be.onrender.com",
+    "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app/",
+    "https://se-bookhub.vercel.app/",
+    "http://localhost:8000",
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://se-project-beta-frontend.vercel.app",
+    "https://se-bookhub-be.onrender.com",
+    "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app/",
+    "https://se-bookhub.vercel.app/",
     "http://localhost:8000",
 ]
 
