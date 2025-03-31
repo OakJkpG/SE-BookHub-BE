@@ -73,7 +73,6 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://se-bookhub.vercel.app/",
     "http://localhost:8000",
 ]
 
