@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#54x6t*cin_7-301e+9vw+&8fxc558*7nm1ruiz$*034ja)b)q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -84,7 +84,7 @@ FRONTEND_URLS = {
 }
 
 # Frontend URL based on environment
-FRONTEND_URL = FRONTEND_URLS['production' if not DEBUG else 'development']
+FRONTEND_URL = FRONTEND_URLS['production']
 
 CORS_ORIGIN_ALLOW_ALL = True  # หรือจะระบุ URL ที่อนุญาตให้เชื่อมต่อจาก React โดยเฉพาะ
 # ตั้งค่า Email (สำหรับ demo ส่งไปที่ console)
