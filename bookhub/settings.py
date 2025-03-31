@@ -31,7 +31,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Allow all hosts in development, specific hosts in production
 if DEBUG:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1','se-bookhub-be.onrender.com']
     # Disable HTTPS redirect in development
     SECURE_SSL_REDIRECT = False
     SESSION_COOKIE_SECURE = False
