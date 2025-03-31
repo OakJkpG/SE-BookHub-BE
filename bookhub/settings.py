@@ -68,16 +68,17 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     "https://se-bookhub-be.onrender.com",
-    "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app/",
-    "https://se-bookhub.vercel.app/",
+    "https://se-bookhub-git-main-oakjkpgs-projects.vercel.app",
+    "https://se-bookhub.vercel.app",
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
+    "https://se-bookhub.vercel.app",
 ]
 
 # Frontend URL Configuration
-FRONTEND_URL = 'https://se-bookhub.vercel.app' # Update this in production
+FRONTEND_URL = 'https://se-bookhub.vercel.app'
 
 CORS_ORIGIN_ALLOW_ALL = True  # หรือจะระบุ URL ที่อนุญาตให้เชื่อมต่อจาก React โดยเฉพาะ
 # ตั้งค่า Email (สำหรับ demo ส่งไปที่ console)
